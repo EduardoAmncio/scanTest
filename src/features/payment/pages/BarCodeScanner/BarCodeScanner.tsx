@@ -43,7 +43,8 @@ export const BarCodeScanner: React.FC = () => {
             playSoundOnScan={true}
             engineLocation="https://cdn.jsdelivr.net/npm/scandit-sdk@5.x/build"
             onScan={(scanResult: any) => {
-              console.log("Código: ", scanResult.barcodes[0].data)
+              alert(scanResult.barcodes[0].data)
+              // console.log("Código: ", scanResult.barcodes[0].data)
             }}
           />
         </Box>
