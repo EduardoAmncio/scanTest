@@ -13,8 +13,6 @@ import ScanditBarcodeScanner from "scandit-sdk-react";
 import "./Style.scss"
 
 
-
-
 export const BarCodeScanner: React.FC = () => {
   const styles = useStyles();
 
