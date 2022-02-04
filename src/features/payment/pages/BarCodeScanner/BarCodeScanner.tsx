@@ -1,17 +1,23 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { PageContainer } from "components/PageContainer";
 import { LandscapeContainner } from "features/payment/components/LandscapeContainer";
 import { BarcodeInfors } from "features/payment/components/BarcodeInfors";
 import { Box } from "@material-ui/core";
 import { useStyles } from "./BarCodeScanner.style";
+import { BarcodePicker } from "scandit-sdk/build/main/lib/barcodePicker/barcodePicker";
+import { Barcode } from "scandit-sdk/build/main/lib/barcode";
+import { ScanSettings } from "scandit-sdk/build/main/lib/scanSettings";
 //@ts-ignore
 import ScanditBarcodeScanner from "scandit-sdk-react";
-import { Barcode, BarcodePicker, ScanSettings } from "scandit-sdk";
+//import { Barcode, BarcodePicker, ScanSettings } from "scandit-sdk";
 import "./Style.scss"
+
+
+
 
 export const BarCodeScanner: React.FC = () => {
   const styles = useStyles();
-  
+
   return (
     <PageContainer>
       <LandscapeContainner>
