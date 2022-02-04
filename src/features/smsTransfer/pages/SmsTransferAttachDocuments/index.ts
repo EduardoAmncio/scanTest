@@ -1,0 +1,1 @@
+export { SmsTransferAttachDocuments } from "./SmsTransferAttachDocuments";

@@ -1,0 +1,1 @@
+export { SmsTransferReceipt } from "./SmsTransferReceipt";

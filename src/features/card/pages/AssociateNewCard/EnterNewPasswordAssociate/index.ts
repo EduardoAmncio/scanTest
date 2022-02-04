@@ -1,0 +1,1 @@
+export {EnterNewPasswordAssociate} from "./EnterNewPasswordAssociate";

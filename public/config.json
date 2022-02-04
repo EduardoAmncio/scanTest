@@ -1,0 +1,23 @@
+{
+  "api": {
+    "baseUrl": "https://your-osb-api.com",
+    "defaultHeaders": {
+      "x-api-version": 1
+    }
+  },
+  "tagAmount": 5,
+  "application": {
+    "key": "your-key",
+    "secret": "your-secret"
+  },
+  "company": {
+    "address": "",
+    "appStoreUrl": "",
+    "email": "",
+    "name": "",
+    "phone": "",
+    "playStoreUrl": "",
+    "website": "",
+    "whatsapp": ""
+  }
+}

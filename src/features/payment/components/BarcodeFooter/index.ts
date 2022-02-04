@@ -1,0 +1,1 @@
+export {BarcodeFooter} from "./BarcodeFooter";

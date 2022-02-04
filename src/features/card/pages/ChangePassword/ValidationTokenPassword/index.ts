@@ -1,0 +1,1 @@
+export {ValidationTokenPassword} from "./ValidationTokenPassword";

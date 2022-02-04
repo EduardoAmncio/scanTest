@@ -1,0 +1,27 @@
+export enum OnboardingRoutes {
+  welcome = "/",
+  terms = "/terms",
+  landingPage = "/landingPage",
+  activateAccount = "/onboarding/activate-account",
+
+  activationTokenForSMS = "/onboarding/activate-account/sms/activate-token",
+  enterTaxPayerForSMS = "/onboarding/activate-account/sms/enter-taxpayer",
+  createPasswordForSMS = "/onboarding/activate-account/sms/create-password",
+  confirmPasswordForSMS = "/onboarding/activate-account/sms/confirm-password",
+  validatePhoneForSMS = "/onboarding/activate-account/sms/validate-phone",
+  accountActivationCompletedForSMS = "/onboarding/activate-account/sms/account-activated",
+  birthDateForSMS = "/onboarding/activate-account/sms/birth-date",
+  createNameForSMS = "/onboarding/activate-account/sms/create-name",
+
+  resendTokenForCard = "/onboarding/activate-account/card/send-token",
+  enterIdentifierForCard = "/onboarding/activate-account/card/enter-identifier",
+  enterDigitsCard = "/onboarding/activate-account/card/enter-digits",
+  enterTaxPayerForCard = "/onboarding/activate-account/card/enter-taxpayer",
+  enterPhoneCard = "/onboarding/activate-account/card/enter-phone",
+  enterTokenForCard = "/onboarding/activate-account/card/enter-token",
+  createPasswordForCard = "/onboarding/activate-account/card/create-password",
+  confirmPasswordForCard = "/onboarding/activate-account/card/confirm-password",
+  enterBirthdayForCard = "/onboarding/activate-account/card/enter-birthday",
+  invalidDataForCard = "/onboarding/activate-account/card/invalid-data",
+  accountActivationCompletedForCard = "/onboarding/activate-account/card/account-activated",
+}

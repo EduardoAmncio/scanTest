@@ -1,0 +1,1 @@
+export {BarCodePayment} from "./BarCodePayment";

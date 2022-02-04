@@ -1,0 +1,1 @@
+export { BarcodeInfors } from "./BarcodeInfors";
